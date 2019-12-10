@@ -1,0 +1,10 @@
+body {
+    background: url("background.png") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.card {
+    border: none;
+    margin: 0 160px;
+}

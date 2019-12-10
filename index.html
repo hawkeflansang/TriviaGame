@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game | Varun Master</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-success" role="alert">
+            <h1 class="alert-heading text-center">The Office Trivia</h1>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body mx-auto">
+            <div class="container start">
+                <h4>So you think you are the biggest Office fan? Find out by taking this quiz.</h4>
+                <button type="button" class="btn btn-primary btn-lg btn-block start" name="start">Start</button>
+            </div>
+
+            <div class="show-number">
+                <h2>Time Remaining:</h2>
+                <h2>60</h2>
+            </div>
+
+            <div class="questions">
+                <div class="question 0">
+                    <div class="answer 0"></div><br>
+                </div>
+                <div class="question 1">
+                    <div class="answer 1"></div><br>
+                </div>
+                <div class="question 2">
+                    <div class="answer 2"></div><br>
+                </div>
+                <div class="question 3">
+                    <div class="answer 3"></div><br>
+                </div>
+                <div class="question 4">
+                    <div class="answer 4"></div><br>
+                </div>
+                <div class="question 5">
+                    <div class="answer 5"></div><br>
+                </div>
+                <div class="question 6">
+                    <div class="answer 6"></div><br>
+                </div>
+                <div class="question 7">
+                    <div class="answer 7"></div><br>
+                </div>
+                <div class="question 8">
+                    <div class="answer 8"></div><br>
+                </div>
+                <div class="question 9">
+                    <div class="answer 9"></div><br>
+                </div>
+            </div>
+            <div class="container submit">
+                <button type="button" class="btn btn-success btn-lg btn-block" name="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card results">
+        <div class="card-body mx-auto">
+            <div class="results">
+                <div><h2>Here is your score:</h2></div><br>
+                <div class="correct">Correct: <span class="numCorrect"></span></div>
+                <div class="incorrect">Incorrect: <span class="numIncorrect"></span></div>
+                <div class="unanswered">Unanswered: <span class="numUnanswered"></span></div>
+            </div>
+            <br>
+            <br>
+            <div class="container retry">
+                <button type="button" class="btn btn-info btn-lg btn-block retry" name="retry">Retry</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <script type="text/javascript" src="assets/javascript/app.js">
+    </script>
+</body>
+
+</html>
